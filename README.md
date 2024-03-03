@@ -2,4 +2,5 @@
 
 ### Usando Node y TypeScript para crear una API de productos
 
-#### API en proceso
+#### Imagen de Docker
+`docker pull gersonbenito/product-app:latest`
