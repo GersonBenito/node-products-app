@@ -5,10 +5,9 @@ services:
     ports:
       - 8080:8080
     environment:
-      - DB_URI=mongodb://127.0.0.1:27017
+      - DB_URI=mongodb://mongo:27017
   mongo:
-    container_name: mongodb
+    # container_name: mongodb
     image: mongo:latest
-    ports:
-     - 27017:27017
-    #command: mongod
+    #ports:
+    # - 27017:27017
